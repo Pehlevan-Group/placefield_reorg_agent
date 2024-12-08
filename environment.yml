@@ -1,0 +1,10 @@
+name: pfagent
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - scipy
+  - matplotlib
+  - numpy
+  - jupyter
+prefix: /pfagent
