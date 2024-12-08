@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ### Using Conda
 ```
 conda env create -f environment.yml
-conda activate example-project
+conda activate pfagent
 ```
 
 Depending on your machine, you may need additional or alternative packages for GPU-enabled Jax. Please consult the Jax installation instructions for details.
