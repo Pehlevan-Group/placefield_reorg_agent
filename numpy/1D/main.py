@@ -12,7 +12,7 @@ from copy import deepcopy
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--episodes', type=int, required=False, help='episodes', default=200)
+parser.add_argument('--episodes', type=int, required=False, help='episodes', default=50000)
 parser.add_argument('--tmax', type=int, required=False, help='tmax', default=100)
 
 parser.add_argument('--goalcoords', type=float,nargs='+', required=False, help='goal coords', default=[[0.5]])
